@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/learn_ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/learn_ic_team"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/busqueda"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Busqueda de ayuda" />
+        <item
+            android:id="@+id/mapsActivity"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Mapa" />
+        <item
+            android:id="@+id/quizz_Activity"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Quizz"/>
+        <item
+            android:id="@+id/rutinas"
+            android:icon="@android:drawable/ic_lock_idle_alarm"
+            android:title="Rutinas" />
+        <item
+            android:id="@+id/foro"
+            android:icon="@drawable/learn_ic_megaphone"
+            android:title="Foro" />
+
+        <item
+            android:id="@+id/mainActivity1"
+            android:icon="@drawable/learn_ic_team"
+            android:title="Expertos" />
+    </group>
+</menu>
